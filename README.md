@@ -6,7 +6,7 @@ In this project, we build and optimize an Azure ML pipeline using the Python SDK
 This model is then compared to an Azure AutoML run.
 
 ## Summary
-**In 1-2 sentences, explain the problem statement: e.g "This dataset contains data about... we seek to predict..."**
+This dataset is related with direct phone call marketing campaigns of a Portuguese banking institution to predict whether people subscribe the bank term deposit or not.
 
 **In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
 
@@ -27,6 +27,6 @@ This model is then compared to an Azure AutoML run.
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
 
 ## Proof of cluster clean up
-**If you did not delete your compute cluster in the code, please complete this section. Otherwise, delete this section.**
 **Image of cluster marked for deletion**
+
 # udacityms-1stproject
