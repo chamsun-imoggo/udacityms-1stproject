@@ -5,11 +5,12 @@ This project is part of the Udacity Azure ML Nanodegree.
 In this project, we build and optimize an Azure ML pipeline using the Python SDK and a provided Scikit-learn model.
 This model is then compared to an Azure AutoML run.
 
-![alt text](images/AzureML_Pipeline.png "AzureML Pipeline")
+![AzureML Pipeline](images/AzureML_Pipeline.png)
 
 In the Azure Machine Learning Python SDK, within the machine learning workspace and relevant compute cluster, we can easily load data, pre-process data, tune hyperparameters, train models, choose the best model and finally register the model. Especially with HyperDrive, the hyperparmeter optimization can be automated and with AutoML, all the ML lifecycle can be automated.
 
 * [HyperDrive](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-tune-hyperparameters)
+
 We can automate hyperparameter tuning by using Azure Machine Learning HyperDrive. To enable HyperDrive with AzureML SDK, we have to:
 1) Define the parameter search space
 2) Specify a primary metric to optimize
@@ -20,6 +21,7 @@ We can automate hyperparameter tuning by using Azure Machine Learning HyperDrive
 6) Select the best configuration for your model
 
 * [AutoML](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml)
+
 Without domain knowledge or resources, we can build machine learning models by using AutoML. By just loading the training data, AutoML will automatically build models and do all the relevant required jobs then we can easily check top algorithms, hyperparameters, feature importance and many other useful information.
 
 ## Summary
