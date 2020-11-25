@@ -27,7 +27,7 @@ The accuracy of Scikit-learn logistic regression model with HyperDrive is about 
 
 
 ## Future work
-We can consider auto hyperparameter tuning for other hyperparameters such as max_iter, the maximum number of iterations taken for the solvers to converge or other hyperparameters metioned from the [scikit-learn logistic regression documentation(https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html).
+We can consider auto hyperparameter tuning for other hyperparameters such as max_iter, the maximum number of iterations taken for the solvers to converge or other hyperparameters metioned from the [scikit-learn logistic regression documentation](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html).
 
 Or we can refer to the result of AutoML and try different algorithms with HyperDrive.
 
