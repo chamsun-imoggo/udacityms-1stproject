@@ -47,6 +47,17 @@ Automated machine learning supports ensemble models, which are enabled by defaul
 
 VotingEnsemble predicts based on the weighted average of predicted class probabilities for classification tasks or predicted regression targets for regression tasks.
 
+AutoML selected VotingEnsemble Classifier parameters like below. You can check explanations for parameters from the [sklearn.ensemble.VotingClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.VotingClassifier.html) documentation since [PreFittedSoftVotingClassifier](https://docs.microsoft.com/en-us/python/api/azureml-automl-runtime/azureml.automl.runtime.shared.model_wrappers.prefittedsoftvotingclassifier?view=azure-ml-py) Class of Azureml is the inheritance of sklearn.ensemble._voting.VotingClassifier.
+
+- min_weight_fraction_leaf = 0.0
+- n_estimators = 200
+- n_jobs = 1
+- oob_score = True
+- random_state = None
+- verbose = 0
+- warm_start = False
+
+
 AutoML selected the best features as you can see the below diagram.
 
 ![AutoML Top Features](image/AutoML_FeatureImportance.PNG)
